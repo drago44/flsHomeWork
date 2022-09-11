@@ -1,0 +1,91 @@
+@import "reset.css";
+@import "fonts.css";
+
+* {
+  color: white;
+  background-color: rgb(22, 22, 22);
+}
+
+body {
+  font-family: "Lato";
+}
+
+hr {
+  border: 1px solid #61DBFB;
+}
+
+h1,
+div>hr,
+div>ol,
+div>h2,
+div>h3,
+footer>p,
+.red~p,
+.history>p,
+.blue~p {
+  margin-bottom: 24px;
+}
+
+li {
+  list-style-type: square;
+  margin-left: 30px;
+}
+
+a {
+  color: #fbf586;
+}
+
+a:visited {
+  color: #f5deb3;
+}
+
+.sub-title {
+  color: #f5deb3;
+}
+
+.sub-title~ul,
+.sub-title+p {
+  padding-bottom: 20px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+
+.blue {
+  color: #61DBFB;
+}
+
+.red {
+  color: rgb(255, 106, 106);
+}
+
+.lato-bold {
+  font-weight: 700;
+}
+
+.lato-black {
+  font-weight: 900;
+}
+
+.larsseit-regular {
+  font-family: "Larsseit";
+  font-weight: 400;
+}
+
+.larsseit-medium {
+  font-family: "Larsseit";
+  font-weight: 500;
+}
+
+.larsseit-bold {
+  font-family: "Larsseit";
+  font-weight: 700;
+}
+
+.roboto-black {
+  font-family: "Roboto";
+  font-weight: 900;
+}
