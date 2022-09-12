@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
 }
 
 hr {
@@ -72,21 +72,21 @@ a:visited {
 }
 
 .larsseit-regular {
-  font-family: "Larsseit";
+  font-family: "Larsseit", sans-serif;
   font-weight: 400;
 }
 
 .larsseit-medium {
-  font-family: "Larsseit";
+  font-family: "Larsseit", sans-serif;
   font-weight: 500;
 }
 
 .larsseit-bold {
-  font-family: "Larsseit";
+  font-family: "Larsseit", sans-serif;
   font-weight: 700;
 }
 
 .roboto-black {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
 }
