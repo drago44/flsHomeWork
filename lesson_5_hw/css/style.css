@@ -1,0 +1,111 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import "fonts.css";
+
+body {
+  font-family: Lato, sans-serif;
+  background-color: #282c34;
+  color: #ffffff;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.header__title {
+  font-family: Roboto, sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+  font-style: oblique 45deg;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-shadow: 3px 2px 20px rgb(166, 165, 165, .9);
+  margin-bottom: 50px;
+}
+
+.first {
+  text-align: center;
+  border: 1px solid antiquewhite;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.first__text {
+  display: inline-block;
+  width: 30%;
+  font-size: 24px;
+  line-height: 1.4;
+  padding: 0 15px;
+}
+
+.second {
+  padding: 0 60px;
+  margin: 0 0 50px 0;
+}
+
+.second__text {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 4px;
+  color: antiquewhite;
+  margin: 0 0 15px 0;
+}
+
+.third {
+  background-color: antiquewhite;
+  color: #282c34;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.third__text {
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.third__text:last-child {
+  margin-bottom: 0;
+}
+
+.footer__img {
+  display: block;
+  width: 300px;
+  margin: 50px auto;
+}
+
+.footer__link {
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+  text-align: center;
+  color: antiquewhite;
+  text-shadow: 3px 2px 20px aquamarine;
+}
+
+.footer__link:link {
+  text-decoration: underline;
+}
+
+.footer__link:link,
+.footer__link:visited {
+  color: black;
+  text-decoration: line-through;
+  text-shadow: 3px 2px 20px palevioletred;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
