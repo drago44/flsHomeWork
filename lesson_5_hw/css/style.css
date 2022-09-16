@@ -71,6 +71,10 @@ body {
   margin-bottom: 0;
 }
 
+.footer {
+  text-align: center;
+}
+
 .footer__img {
   display: block;
   width: 300px;
@@ -78,17 +82,17 @@ body {
 }
 
 .footer__link {
-  display: block;
+  display: inline-block;
   font-family: Roboto, sans-serif;
   font-size: 70px;
   font-weight: 900;
-  text-align: center;
+  text-decoration: underline;
   color: antiquewhite;
   text-shadow: 3px 2px 20px aquamarine;
 }
 
-.footer__link:link {
-  text-decoration: underline;
+.footer__link:hover {
+  text-shadow: 3px 2px 20px palevioletred;
 }
 
 .footer__link:link,
