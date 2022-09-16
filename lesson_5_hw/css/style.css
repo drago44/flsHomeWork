@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  min-width: 320px;
+  min-width: 768px;
   max-width: 1440px;
   margin: 0 auto;
   padding: 30px;
@@ -88,18 +88,15 @@ body {
   font-weight: 900;
   text-decoration: underline;
   color: antiquewhite;
-  text-shadow: 3px 2px 20px aquamarine;
+  text-shadow: 0 0 40px palevioletred;
 }
 
 .footer__link:hover {
-  text-shadow: 3px 2px 20px palevioletred;
+  text-shadow: 0 0 40px aquamarine;
 }
 
-.footer__link:link,
 .footer__link:visited {
   color: black;
-  text-decoration: line-through;
-  text-shadow: 3px 2px 20px palevioletred;
 }
 
 .left {
