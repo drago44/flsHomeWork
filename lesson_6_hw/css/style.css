@@ -1,0 +1,155 @@
+@import "reset.css";
+@import "fonts.css";
+
+body {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.container {
+  max-width: 850px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.opacity {
+  opacity: 0.3;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.header {
+  margin: 0 0 100px 0;
+}
+
+.header__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+
+.main__img img {
+  width: 100%;
+  min-width: 280px;
+  margin: 0 0 60px 0;
+}
+
+.main__text {
+  margin: 0 0 24px 0;
+}
+
+.quotation {
+  padding: 10px 0 10px 60px;
+}
+
+.main__list {
+  margin: 0 0 24px 0;
+}
+
+.main__list li {
+  padding: 0 0 0 32px;
+  margin: 0 0 4px 0;
+}
+
+.exp {
+  max-width: 810px;
+  text-align: center;
+  margin: 0 auto 50px auto;
+}
+
+.exp__item {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 130%;
+  height: 400px;
+  max-width: 320px;
+  min-width: 200px;
+  overflow: scroll;
+  padding: 24px 0;
+}
+
+.one {
+  background-color: #ff0000;
+  border: 5px solid aquamarine;
+  box-shadow: inset 200px 200px 55px -125px rgba(0, 0, 0, 0.48);
+}
+
+.two {
+  background-color: yellow;
+  border: 5px solid blue;
+  box-shadow: inset -200px 200px 55px -125px rgba(0, 0, 0, 0.48);
+}
+
+.three {
+  background-color: blue;
+  border: 5px solid yellow;
+  box-shadow: inset 200px -200px 55px -125px rgba(0, 0, 0, 0.48);
+}
+
+.four {
+  background-color: aquamarine;
+  border: 5px solid #ff0000;
+  box-shadow: inset -200px -200px 55px -125px rgba(0, 0, 0, 0.48);
+}
+
+.exp-second {
+  max-width: 810px;
+  text-align: center;
+  margin: 0 auto 60px auto;
+  font-size: 0;
+}
+
+.exp-second__item {
+  display: inline-block;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 130px;
+  color: aqua;
+  background-color: #1E212C;
+  min-width: 270px;
+  min-height: 270px;
+  padding: 70px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer__img {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  min-width: 280px;
+  margin: 0 auto 60px auto;
+}
+
+.footer__link {
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 130%;
+  color: rgb(250, 235, 215);
+  text-shadow: 0 0 20px red;
+  margin: 0 0 60px 0;
+}
+
+.footer__link:hover {
+  color: rgb(30, 33, 44, .7);
+  text-shadow: 0 0 20px green;
+}
