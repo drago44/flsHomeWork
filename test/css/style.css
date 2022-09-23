@@ -1,0 +1,166 @@
+@import "reset.css";
+@import "fonts.css";
+
+.page {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+[class*="__container"] {
+  max-width: 850px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.header {
+  padding: 20px 0 0 0;
+  margin: 0 0 100px 0;
+}
+
+.header__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+
+.main {
+  margin: 0 0 100px 0;
+}
+
+.content {
+  margin: 0 0 60px 0;
+}
+
+.content__img {
+  margin: 0 0 60px 0;
+}
+
+.content__img img {
+  width: 100%;
+}
+
+.content__text {
+  margin: 0 0 24px 0;
+}
+
+.content__text:last-child {
+  margin: 0;
+}
+
+.quotation {
+  padding: 10px 0 10px 60px;
+}
+
+.content__list {
+  margin: 0 0 24px 0;
+}
+
+.content__list li {
+  padding: 0 0 0 32px;
+  margin: 0 0 4px 0;
+}
+
+.content__list li:last-child {
+  margin: 0;
+}
+
+[class*="__block"] {
+  max-height: 400px;
+  min-height: 380px;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 90%;
+  text-transform: uppercase;
+  border: 5px solid black;
+  text-shadow: 0 0 10px black;
+  overflow: scroll;
+  padding: 20px;
+}
+
+.exp {
+  background: linear-gradient(135deg, rgba(86, 178, 179, 1) 42%, rgba(72, 170, 171, 1) 53%, rgba(12, 134, 136, 1) 100%);
+  padding: 20px 0;
+  margin: 0 0 20px 0;
+}
+
+.exp__block {
+  background-image: url("https://img.freepik.com/premium-vector/set-palm-trees-collection-silhouette-palm-tree-contours-tropical-plants_178630-53.jpg?w=1060");
+  background-position: center;
+  background-attachment: fixed;
+  color: aqua;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .exp__block {
+      background: url("https://img.freepik.com/premium-vector/set-palm-trees-collection-silhouette-palm-tree-contours-tropical-plants_178630-53.jpg?w=1060") center scroll;
+      background-size: auto 100vh;
+  }    
+  }
+
+.exp-second {
+  background: linear-gradient(135deg, rgba(235, 233, 249, 1) 0%, rgba(216, 208, 239, 1) 29%, rgba(206, 199, 236, 1) 69%, rgba(193, 191, 234, 1) 100%);
+  padding: 20px 0;
+  margin: 0 0 20px 0;
+}
+
+.exp-second__block {
+  background-image: url("https://img.freepik.com/premium-vector/set-palm-trees-collection-silhouette-palm-tree-contours-tropical-plants_178630-53.jpg?w=1060");
+  background-size: auto 50%;
+  background-position: bottom;
+  color: plum;
+}
+
+.exp-third {
+  background: linear-gradient(135deg, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 24%, rgba(168,0,119,1) 50%, rgba(219,54,164,1) 100%);
+  padding: 20px 0;
+  margin: 0 0 20px 0;
+}
+
+.exp-third__block {
+  background: url("https://img.freepik.com/premium-vector/set-palm-trees-collection-silhouette-palm-tree-contours-tropical-plants_178630-53.jpg?w=1060") no-repeat center / auto 30%,
+  linear-gradient(135deg, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 24%, rgba(168,0,119,1) 50%, rgba(219,54,164,1) 100%) no-repeat center / 40% 50%,
+  url("https://img.freepik.com/premium-vector/set-palm-trees-collection-silhouette-palm-tree-contours-tropical-plants_178630-53.jpg?w=1060") no-repeat center / auto 74%,
+  linear-gradient(135deg, rgba(235, 233, 249, 1) 0%, rgba(216, 208, 239, 1) 29%, rgba(206, 199, 236, 1) 69%, rgba(193, 191, 234, 1) 100%);
+  color: pink;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer__img {
+  margin: 0 0 60px 0;
+}
+
+.footer__img img {
+  width: 100%;
+  max-width: 420px;
+}
+
+.footer__link {
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 130%;
+  color: rgb(250, 235, 215);
+  text-shadow: 0 0 20px red;
+  margin: 0 0 60px 0;
+}
+
+.footer__link:hover {
+  color: rgb(30, 33, 44, .6);
+  text-shadow: 0 0 20px green;
+}
