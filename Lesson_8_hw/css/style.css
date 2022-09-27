@@ -59,6 +59,7 @@
 	color: aquamarine;
 }
 
+.footer__container>*:last-child,
 .about__container>*:last-child,
 .curator__container>*:last-child {
 	margin: 0;
@@ -173,11 +174,7 @@ ul li:last-child {
 	font-weight: 700;
 	font-size: 30px;
 	line-height: 160%;
-}
-
-.game__container {
-	border: #1E212C solid 5px;
-	padding: 20px;
+	padding: 20px 0;
 }
 
 [class*="point-"] {
