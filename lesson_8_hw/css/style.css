@@ -178,7 +178,6 @@ ul li:last-child {
 }
 
 [class*="point-"] {
-	padding: 20px;
 	opacity: 0;
 	visibility: hidden;
 }
@@ -216,6 +215,7 @@ ul li:last-child {
 	max-width: 107px;
 	height: 500px;
 	background-color: #34A853;
+	padding: 20px;
 }
 
 .point-3 {
@@ -267,6 +267,7 @@ ul li:last-child {
 	margin: 0 auto;
 	opacity: 0;
 }
+
 .game__end:hover {
 	color: red;
 	background-color: wheat;
@@ -288,7 +289,7 @@ ul li:last-child {
 .footer__link {
 	display: inline-block;
 	font-family: Roboto, sans-serif;
-	font-size:80px;
+	font-size: 80px;
 	font-weight: 900;
 	line-height: 130%;
 	color: rgb(250, 235, 215);
