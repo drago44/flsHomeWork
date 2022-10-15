@@ -1,0 +1,188 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+header {
+  padding: 20px;
+}
+
+p {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+a {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: rgb(67, 181, 143);
+}
+
+a:hover {
+  color: aquamarine;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.sky {
+  font-size: 0;
+  background: linear-gradient(to bottom, #154277 0%, #576e71 30%, #e1c45e 70%, #b26339 100%);
+  height: 100vh;
+}
+
+
+.sky__gradient {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  height: 40px;
+  cursor: pointer;
+}
+
+.sky__gradient:hover {
+  z-index: 2;
+  box-shadow: 0 -5px 20px aqua;
+}
+
+.sky__gradient::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 500%;
+  height: 100vh;
+  background: inherit;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.sky__gradient:hover::after {
+  opacity: 1;
+  transition: 1s ease;
+}
+
+.sky__gradient:nth-child(1)::after {
+  left: 0%;
+}
+
+.sky__gradient:nth-child(2)::after {
+  left: -100%;
+}
+
+.sky__gradient:nth-child(3)::after {
+  left: -200%;
+}
+
+.sky__gradient:nth-child(4)::after {
+  left: -300%;
+}
+
+.sky__gradient:nth-child(5)::after {
+  left: -400%;
+}
+
+
+.sky__gradient--00 {
+  background: linear-gradient(to bottom, #071B26 0%, #071B26 30%, #8A3B12 80%, #240E03 100%);
+}
+
+.sky__gradient--01 {
+  background: linear-gradient(to bottom, #757abf 0%, #8583be 20%, #eab0d1 80%);
+}
+
+.sky__gradient--02 {
+  background: linear-gradient(to bottom, #9be2fe 0%, #67d1fb 100%);
+}
+
+.sky__gradient--03 {
+  background: linear-gradient(to bottom, #154277 0%, #576e71 30%, #e1c45e 70%, #b26339 100%);
+}
+
+.sky__gradient--04 {
+  background: linear-gradient(to bottom, #94c5f8 1%, #a6e6ff 20%, #ffffff 60%);
+}
+
+.forest {
+  position: relative;
+  top: -85vh;
+  z-index: 6;
+}
+
+.forest__img {
+  position: absolute;
+}
+
+.forest__img--01 {
+  z-index: 3;
+}
+
+.forest__img--02 {
+  left: 600px;
+  z-index: 2;
+}
+
+.forest__img--03 {
+  left: 1200px;
+  z-index: 1;
+}
+
+.road {
+  position: absolute;
+  bottom: 0;
+  background-image: url('../img/road.jpg');
+  width: 100%;
+  height: 184px;
+  z-index: 7;
+}
+
+.car {
+  width: 100%;
+  z-index: 9;
+  position: relative;
+}
+
+.car__img {
+  position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  bottom: 20px;
+  min-width: 300px;
+  max-width: 300px;
+  z-index: 9;
+}
+
+.car__img--02 {
+  left: 50%;
+}
+
+.car__img--03 {
+  left: 70%;
+  bottom: 80px;
+  z-index: 8;
+}
+
+.car__img--04 {
+  left: 140%;
+  bottom: 80px;
+  z-index: 8;
+}
+
+.car:hover .car__img {
+  transition: all 4s linear 0s;
+  transform: translateX(1000%);
+}
+
+.car:hover .car__img--04,
+.car:hover .car__img--03 {
+  transition: all 40s linear 0s;
+  transform: translateX(-10000%);
+}
