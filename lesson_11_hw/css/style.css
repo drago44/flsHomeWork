@@ -113,7 +113,7 @@ a:hover {
 
 .forest {
   position: relative;
-  top: -85vh;
+  bottom: 750px;
   z-index: 6;
 }
 
