@@ -1,0 +1,14 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+@import "global.css";
+@import "blocks/button.css";
+@import "blocks/titles.css";
+@import "blocks/header.css";
+@import "blocks/menu.css";
+@import "blocks/hero.css";
+@import "blocks/decor-hero.css";
+@import "blocks/course.css";
+@import "blocks/list.css";
+@import "blocks/board.css";
+@import "blocks/curator.css";
+@import "blocks/steps.css";

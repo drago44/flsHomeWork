@@ -1,0 +1,27 @@
+.hero{
+	position: relative;
+	padding: 192px 0px 120px 0px;
+	background: linear-gradient(55.95deg, rgba(255, 64, 58, 0.2) 0%, rgba(247, 94, 5, 0.2) 100%);
+}
+
+.hero__container{
+  position: relative;
+	z-index: 2;
+}
+
+.hero__content {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.hero__label {
+	margin: 0 0 12px 0;
+}
+
+.hero__title {
+	align-self: center;
+	flex: 0 1 82.9%;
+	max-width: 82.9%;
+	margin: 0 0 12px 0;
+}

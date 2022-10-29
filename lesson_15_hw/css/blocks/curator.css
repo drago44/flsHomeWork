@@ -1,0 +1,114 @@
+.curator {
+  position: relative;
+  padding: 86px 0 90px 0;
+}
+
+.curator__container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  z-index: 2;
+}
+
+.curator__wrap-img {
+  flex: 0 1 50%;
+}
+
+.curator__img {
+  position: relative;
+  background: #FFCF2D;
+  border-radius: 4px;
+  max-width: 495px;
+  min-width: 290px;
+  padding: 0 19px;
+}
+
+.curator__img img {
+  margin-top: -20px;
+}
+
+.curator__content {
+  flex: 0 1 50%;
+  min-width: 290px;
+  padding: 0 0 0 20px;
+}
+
+.curator__label {
+  margin: 0 0 8px 0;
+}
+
+.curator__name {
+  margin: 0 0 16px 0;
+}
+
+.curator__position {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #787A80;
+  margin: 0 0 32px 0;
+}
+
+.curator__list {
+  margin: 0 0 32px 0;
+}
+
+.curator__item-list {
+  font-weight: 700;
+  position: relative;
+  padding: 0 0 0 23px;
+  margin: 0 0 4px 0;
+}
+
+.curator__item-list::before {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  top: 5px;
+  left: 0;
+}
+
+.curator__item-list--rating::before {
+  background: url('../../img/icons/rating.svg') 0 0 no-repeat;
+}
+
+.curator__item-list--courses::before {
+  background: url('../../img/icons/courses.svg') 0 0 no-repeat;
+}
+
+.curator__item-list--student::before {
+  background: url('../../img/icons/student.svg') 0 0 no-repeat;
+}
+
+.curator__text {
+  margin: 0 0 32px 0;
+}
+
+.curator__socials-list {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  margin: 0 0 32px 0;
+}
+
+.curator__item-social svg {
+  max-width: 24px;
+}
+
+.curator__item-social path {
+  transition: fill .4s ease;
+}
+
+.curator__item-social:hover path {
+  fill: rgb(255, 63, 58);
+}
+
+.curator__decor {
+  position: absolute;
+  background: url('../../img/main/decor/05.svg') 0 0 no-repeat;
+  width: 242px;
+  height: 242px;
+  top: 0;
+  left: 11%;
+}

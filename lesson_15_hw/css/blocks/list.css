@@ -1,0 +1,23 @@
+.list__name {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	color: #1E212C;
+	margin: 0 0 24px 0;
+}
+
+.list__items li {
+	position: relative;
+	padding: 0 0 0 32px;
+	margin: 0 0 4px 0;
+}
+
+.list__items li::before {
+	position: absolute;
+	content: "";
+	background: url('../../img/icons/check.svg') 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	top: 5px;
+	left: 0;
+}
