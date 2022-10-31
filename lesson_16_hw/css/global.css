@@ -1,0 +1,33 @@
+body {
+  font-family: "Lato";
+  line-height: 1.6;
+  color: #424551;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper>main {
+  flex-grow: 1;
+}
+
+[class*="__container"] {
+  max-width: 1260px;
+  min-width: 290px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+[class*="__container"] *:last-child {
+  margin-bottom: 0;
+}
