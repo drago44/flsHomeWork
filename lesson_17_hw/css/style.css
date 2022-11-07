@@ -342,7 +342,6 @@ a {
 .burger__icon::after {
   bottom: 4px;
   left: 0;
-  transform: rotateZ("45deg");
 }
 
 .active-js .burger {
