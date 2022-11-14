@@ -372,7 +372,6 @@ a {
   z-index: 100;
   background-color: #F5F6F9;
   padding: 7.5rem 0.9375rem;
-  overflow: hidden;
 }
 
 .burger-js .menu__link {
@@ -403,6 +402,11 @@ a {
       -ms-transform: rotate(-45deg) scale(1.2);
           transform: rotate(-45deg) scale(1.2);
   top: 0.9375rem;
+}
+
+.is-menu-open {
+  position: fixed;
+  overflow: hidden;
 }
 
 .title {
