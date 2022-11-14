@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HomePage</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221114152152">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a data-goto-header data-goto=".hero" href="index.html" class="header__logo">
+					<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="логотип"></picture>
+				</a>
+				<nav class="header__menu menu">
+					<ul data-close class="menu__list">
+						<li class="menu__item">
+							<a data-goto-header data-goto="#benefits" href="#benefits" class="menu__link">Чому працювати на Jaguar?</a>
+						</li>
+						<li class="menu__item">
+							<a data-goto-header data-goto="#vacancies" href="#vacancies" class="menu__link">Опис роботи</a>
+						</li>
+					</ul>
+				</nav>
+				<button data-modal class="header__button button" type="button">Залишити заявку!</button>
+				<button class="header__burger burger" type="button"><span class="burger__icon"></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__content">
+						<h1 class="hero__title">Станьте частиною команди <span>Jaguar Land Rover</span></h1>
+						<a data-goto-header data-goto=".contact-form" class="hero__button button" href="#contact">Хочу працювати </a>
+						<button class="hero__play-btn play-js" type="button">Відео про завод</button>
+						<div class="hero__video">
+							<div class="hero__wrap-video">
+								<button data-close class="hero__close-video" type="button"></button>
+								<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NEhsQ5lwHX8?controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="hero__img-ibg">
+						<picture><source srcset="img/main/hero.webp" type="image/webp"><img src="img/main/hero.jpg" alt="дівчина на виробництві"></picture>
+					</div>
+				</div>
+			</section>
+			<section class="about">
+				<div class="about__container">
+					<div class="about__content">
+						<h2 class="about__label label">Про роботу</h2>
+						<p class="about__text">Робота в Словаччині на виробничій лінії, де виробництво відбувається відповідно
+							високих стандартів якості та точно визначених процесів.</p>
+						<p class="about__text">Пропонуємо роботу на повну зайнятість з оформленням напряму у компанії <span>Jaguar
+								Land Rover Slovakia</span>.</p>
+						<a data-goto="#vacancies" class="about__button button" href="#">Детальний опис</a>
+					</div>
+					<div class="about__video">
+						<iframe src="https://www.youtube-nocookie.com/embed/NEhsQ5lwHX8?controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="about__decor ">
+					<div data-prlx-mouse data-prlx-a="75" data-prlx-cx="40" data-prlx-cy="50" class="about__item-decor about__item-decor--01"></div>
+					<div data-prlx-mouse data-prlx-a="200" data-prlx-cx="40" data-prlx-cy="50" data-prlx-dxr class="about__item-decor about__item-decor--02"></div>
+					<div data-prlx-mouse data-prlx-a="500" data-prlx-dyr class="about__item-decor about__item-decor--03"></div>
+				</div>
+			</section>
+			<section class="benefits" id="benefits">
+				<div class="benefits__container">
+					<h2 class="benefits__title title">Переваги вакансії</h2>
+					<div class="benefits__cards">
+						<div class="benefits__card card">
+							<div class="card__img">
+								<img src="img/main/cards/handshake.svg" alt="рукостискання">
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">Договір</h3>
+								<p class="card__text">Договір на невизначений термін: одразу стаєте нашим співробітником. Пропонований
+									пакет оплати включає основну фіксовану заробітну плату, надбавку, 13-та зарплата.</p>
+							</div>
+						</div>
+						<div class="benefits__card card">
+							<div class="card__img">
+								<img src="img/main/cards/dish.svg" alt="іжа">
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">Харчування</h3>
+								<p class="card__text">Харчування лише 1€. Під час перерви ви можете відпочити, або підкріпитися.</p>
+							</div>
+						</div>
+						<div class="benefits__card card">
+							<div class="card__img">
+								<img src="img/main/cards/euro.svg" alt="євро">
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">Оплата</h3>
+								<p class="card__text">Розмір оплати надурочної роботи вищий, ніж передбачено законом.</p>
+							</div>
+						</div>
+						<div class="benefits__card card">
+							<div class="card__img">
+								<img src="img/main/cards/bus.svg" alt="автобус">
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">Транспорт</h3>
+								<p class="card__text">На місце роботи є можливість дістатись нашим автобусним транспортом, який курсує
+									різними маршрутами з навшколишніх міст і сіл. </p>
+							</div>
+						</div>
+						<div class="benefits__card card">
+							<div class="card__img">
+								<img src="img/main/cards/sleeping.svg" alt="рукостискання">
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">Проживання</h3>
+								<p class="card__text">Якщо ви проживаєте на відстані більше ніж 70 кілометрів від Нітра, ви можете
+									скористатись варіантами дешевого проживання біля заводу із зручним і безкоштовним транспортом до місця
+									роботи.</p>
+							</div>
+						</div>
+						<div class="benefits__card card">
+							<div class="card__img">
+								<img src="img/main/cards/book.svg" alt="рукостискання">
+							</div>
+							<div class="card__info">
+								<h3 class="card__title">Кар’єрний ріст</h3>
+								<p class="card__text">Для нас важливий ваш розвиток, тому ми пропонуємо освітні програми для навчання та
+									кар’єрного росту.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="responses">
+				<div class="responses__container">
+					<div class="responses__head">
+						<h2 class="responses__title-head title">Що подобається нашим працівникам?</h2>
+						<div data-da=".responses__container,768" class="responses__nav">
+							<button type="button" class="responses__button-prev"></button>
+							<button type="button" class="responses__button-next"></button>
+						</div>
+					</div>
+					<div class="responses__slider">
+						<div class="responses__wrapper swiper-wrapper">
+							<div class="responses__slide swiper-slide">
+								<div class="responses__img-ibg responses__img-ibg--left">
+									<picture><source srcset="img/main/slider/01.webp" type="image/webp"><img src="img/main/slider/01.jpg" alt=""></picture>
+								</div>
+								<div class="responses__text">
+									<div class="responses__logo">
+										<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt=""></picture>
+									</div>
+									<div class="responses__title">Маю договір на невизначений строк</div>
+									<div class="responses__label">Я маю чудову роботу</div>
+								</div>
+							</div>
+							<div class="responses__slide swiper-slide">
+								<div class="responses__img-ibg responses__img-ibg--left">
+									<picture><source srcset="img/main/slider/02.webp" type="image/webp"><img src="img/main/slider/02.jpg" alt=""></picture>
+								</div>
+								<div class="responses__text">
+									<div class="responses__logo">
+										<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt=""></picture>
+									</div>
+									<div class="responses__title">Смачні обіди всього за 1 евро</div>
+									<div class="responses__label">Я маю чудову роботу</div>
+								</div>
+							</div>
+							<div class="responses__slide swiper-slide">
+								<div class="responses__img-ibg">
+									<picture><source srcset="img/main/slider/03.webp" type="image/webp"><img src="img/main/slider/03.jpg" alt=""></picture>
+								</div>
+								<div class="responses__text">
+									<div class="responses__logo">
+										<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt=""></picture>
+									</div>
+									<div class="responses__title">Отримую щомісячні бонуси</div>
+									<div class="responses__label">Я маю чудову роботу</div>
+								</div>
+							</div>
+							<div class="responses__slide swiper-slide">
+								<div class="responses__img-ibg responses__img-ibg--left">
+									<picture><source srcset="img/main/slider/04.webp" type="image/webp"><img src="img/main/slider/04.jpg" alt=""></picture>
+								</div>
+								<div class="responses__text">
+									<div class="responses__logo">
+										<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt=""></picture>
+									</div>
+									<div class="responses__title">Безкоштовні тренінги для карʼєрного розвитку</div>
+									<div class="responses__label">Я маю чудову роботу</div>
+								</div>
+							</div>
+							<div class="responses__slide swiper-slide">
+								<div class="responses__img-ibg">
+									<picture><source srcset="img/main/slider/05.webp" type="image/webp"><img src="img/main/slider/05.jpg" alt=""></picture>
+								</div>
+								<div class="responses__text">
+									<div class="responses__logo">
+										<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt=""></picture>
+									</div>
+									<div class="responses__title">Безкоштовний транспорт до місця роботи</div>
+									<div class="responses__label">Я маю чудову роботу</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="vacancies" id="vacancies">
+				<div class="vacancies__container">
+					<h2 class="vacancies__title-head title">Опис роботи
+					</h2>
+					<div class="vacancies__work">
+						<div class="vacancies__text-area">
+							<h3 class="vacancies__name">ОПЕРАТОР/КА ВИРОБНИЦТВА</h3>
+							<h4 class="vacancies__label label">ПОЧАТКОВА ЗАРОБІТНА ПЛАТА : <span>1276€*</span></h4>
+							<p class="vacancies__text">Включає гарантовану тарифну заробітну плату в розмірі 1160 євро + бонус за
+								відвідуваність до 10% (максимум 116 євро) …і ми гарантуємо підвищення заробітної плати під час наступних
+								6 років</p>
+							<h4 class="vacancies__label label">ШИРОКИЙ СПЕКТР ПЕРЕВАГ:</h4>
+							<ul class="vacancies__list">
+								<li>Безкоштовний автобусний транспорт або грошова надбавка на транспорт</li>
+								<li>Харчування лише за 1 євро</li>
+								<li>400 євро на рік у вигляді бонусів за вашим вибором</li>
+								<li>До 150 євро допомоги на відпочинок та навчання</li>
+								<li>Підвищені надбавки за понаднормову роботу у вихідні дні, у порівнянні з тим, що передбачено трудовим
+									законодавством</li>
+								<li>100% покриття страхування життя та від нещасних випадків, додаткові внески роботодавця у пенсійне
+									накопичення</li>
+								<li>Інші переваги офіціного працевлаштування, про які дізнаєтесь після реєстрації</li>
+							</ul>
+						</div>
+						<div class="vacancies__img-ibg vacancies__img-ibg--position">
+							<picture><source srcset="img/main/vacancies/vac-01.webp" type="image/webp"><img src="img/main/vacancies/vac-01.jpg" alt="оператор виробництва"></picture>
+						</div>
+					</div>
+					<div class="vacancies__more-work">
+						<div class="vacancies__img-ibg vacancies__img-ibg--order">
+							<picture><source srcset="img/main/vacancies/vac-02.webp" type="image/webp"><img src="img/main/vacancies/vac-02.jpeg" alt="автозавод"></picture>
+						</div>
+						<div class="vacancies__text-area">
+							<h4 class="vacancies__label label"> МІСЦЕ ВИКОНАННЯ РОБОТИ: <span>МІСТО НІТРА</span></h4>
+							<p class="vacancies__text">Ми забезпечуємо навчання та підтримку наших працівників, щоб ви знайшли роботу,
+								якою будете пишатися.</p>
+							<p class="vacancies__text vacancies__text--small">* усі суми в євро наведені до утримання податів та
+								зборів</p>
+							<h4 class="vacancies__label label">ТАКОЖ В НАС Є ІНШІ ВІДКРИТІ ВАКАНСІЇ</h4>
+							<ul class="vacancies__list">
+								<li>Працівник технічного обслуговування у кузовному відділі</li>
+								<li>Виправних дефектів у кузовному відділі</li>
+								<li>Працівник технічного обслуговування у монтажному відділі</li>
+								<li>Автоелектрик</li>
+								<li>Автомеханік</li>
+								<li>Виправних дефектів у фарбувальному відділі</li>
+								<li>Технік з’єднання</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contact-form" id="contact">
+				<div class="contact-form__container">
+					<div class="contact-form__inner">
+						<h2 class="contact-form__label title">Залишайте заявку і ми передзвонимо Вам для реєстрації на роботу:</h2>
+						<form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="contact-form__form form">
+							<div class="form__line">
+								<label for="first-name" class="form__label">Ім’я*</label>
+								<input id="first-name" data-error data-validate="first-name" data-required required autocomplete="off" type="text" name="first-name" placeholder="Ім’я" class="form__input">
+							</div>
+							<div class="form__line">
+								<label for="last-name" class="form__label">Фамілія</label>
+								<input id="last-name" autocomplete="off" type="text" name="last-name" placeholder="Фамілія" class="form__input">
+							</div>
+							<div class="form__line">
+								<label for="work-email" class="form__label">Email</label>
+								<input id="work-email" autocomplete="off" placeholder="Робоча пошта" name="work-email" type="email" class="form__input">
+							</div>
+							<div class="form__line iti">
+								<label for="phone" class="form__label">Номер телефону*</label>
+								<input id="phone" pattern="[\+]\d{12}" data-error data-validate="phone" data-required required autocomplete="off" placeholder="+380951234567" name="phone" type="tel" class="form__input">
+							</div>
+							<div class="form__line form__line--nav">
+								<div class="form__captcha g-recaptcha" data-sitekey="your_site_key"></div>
+								<button type="submit" class="form__button button">Відправити</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__logo">
+					<a data-goto-header data-goto=".hero" href="index.html"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="логотип"></picture></a>
+				</div>
+				<p class="footer__email">nabir@robotajaguarlandrover.com.ua</p>
+			</div>
+		</footer>
+	</div>
+	<section data-modal-o class="popup-form">
+		<div class="popup-form__inner">
+			<div data-close class="popup-form__close"></div>
+			<h2 class="popup-form__label title">Залишайте заявку і ми передзвонимо Вам для реєстрації на роботу:</h2>
+			<form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="popup-form__form form">
+				<div class="form__line">
+					<label for="first-name-m" class="form__label">Ім’я*</label>
+					<input id="first-name-m" required autocomplete="off" type="text" name="first-name" placeholder="Ім’я" class="form__input">
+				</div>
+				<div class="form__line">
+					<label for="phone-number-m" class="form__label">Номер телефону*</label>
+					<input id="phone-number-m" required autocomplete="off" placeholder="Номер телефону" name="phone" type="tel" class="form__input">
+				</div>
+				<div class="form__line form__line--nav">
+					<div class="form__captcha g-recaptcha" data-sitekey="your_site_key"></div>
+					<button type="submit" class="form__button button">Відправити</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	<script src="js/app.min.js?_v=20221114152152"></script>
+	<script src="https://www.google.com/recaptcha/api.js?_v=20221114152152" async defer></script>
+
+</body>
+
+</html>
