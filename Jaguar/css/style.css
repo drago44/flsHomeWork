@@ -1851,6 +1851,10 @@ a {
             flex-direction: column;
   }
 
+  .vacancies__text {
+    text-align: center;
+  }
+
   .vacancies__label {
     text-align: center;
   }
