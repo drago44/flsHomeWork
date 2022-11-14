@@ -3962,9 +3962,15 @@
     const burgerBtn = document.querySelector(".burger");
     const header = document.querySelector(".header");
     const menuLink = document.querySelectorAll(".menu__link");
-    burgerBtn.addEventListener("click", (() => header.classList.toggle("burger-js")));
+    burgerBtn.addEventListener("click", (() => {
+        header.classList.toggle("burger-js");
+        document.body.classList.toggle("is-menu-open");
+    }));
     menuLink.forEach((btn => {
-        if (window.innerWidth <= 991.98) btn.addEventListener("click", (() => header.classList.toggle("burger-js")));
+        if (window.innerWidth <= 991.98) btn.addEventListener("click", (() => {
+            header.classList.toggle("burger-js");
+            document.body.classList.toggle("is-menu-open");
+        }));
     }));
     function closeModal(modalSelector) {
         const modal = document.querySelector(modalSelector);
