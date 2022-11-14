@@ -364,18 +364,19 @@ a {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  row-gap: 1.25rem;
+  row-gap: 2.5rem;
   width: 100%;
   height: 110vh;
   opacity: 1;
   visibility: visible;
   z-index: 100;
   background-color: #F5F6F9;
+  text-align: right;
   padding: 7.5rem 0.9375rem;
 }
 
 .burger-js .menu__link {
-  font-size: 1.25rem;
+  font-size: 1.875rem;
   line-height: 1.2;
   color: #2e8b57;
 }
@@ -1576,12 +1577,12 @@ a {
   }
 
   .menu__list {
-    position: absolute;
+    position: fixed;
     width: 0;
     height: 0;
     top: 0;
     right: 0;
-    opacity: 1;
+    opacity: 0;
     visibility: hidden;
   }
 
